@@ -11,7 +11,7 @@ body {
 }
 
 #b-image {
-    background-image: url(/projectBG.png);
+    background-image: url("../projectBG.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
