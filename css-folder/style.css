@@ -190,17 +190,22 @@ p {
     
 }
 
-@media (min-width: 1990px) {
+@media (min-width: 1400px) {
     #parent-container {
         top: 0px;
         align-content: center;
     }
-    
+
     .a {
-        flex-grow: 0;
+        width: 25%;
+    }
+
+    p {
+        font-size: 1.3em;
+        padding: 15px;
     }
 
     .a:hover {
-        transform: scale(1.1);
+        transform: scale(1.02);
     }
 }
